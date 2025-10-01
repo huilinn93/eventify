@@ -1,0 +1,24 @@
+# Nuxt
+.nuxt
+.output
+.data
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules
+*.log*
+.DS_Store
+
+# Test
+coverage
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# Build
+dist
