@@ -48,7 +48,7 @@ const handleSubmit = async () => {
 
     submitSuccess.value = true
     resetForm()
-    
+
     // Auto-hide success message after 5 seconds
     setTimeout(() => {
       submitSuccess.value = false
@@ -71,7 +71,7 @@ const handleSubmit = async () => {
         </UButton>
         <h1 class="text-5xl font-bold text-gray-900 dark:text-white mb-4">Contact Us</h1>
         <p class="text-xl text-gray-600 dark:text-gray-400">
-          Have a question or ready to plan your event? We'd love to hear from you!
+          Have a question or ready for glam-up or game-up? We'd love to hear from you!
         </p>
       </div>
 

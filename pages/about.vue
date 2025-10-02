@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const showCalculator = ref(false)
+const showContact = ref(false)
 
 useSeoMeta({
   title: 'About Us - Eventify',
@@ -59,19 +60,14 @@ useSeoMeta({
             </p>
             <p class="flex items-start gap-2">
               <UIcon name="i-heroicons-star" class="text-primary mt-1 shrink-0" />
-              <span>WE ARE TRANSPARENT. No "GET A QUOTE". Check out our <button @click="showCalculator = true" class="text-primary hover:underline font-medium">price calculator</button>. But of course, it'd still be <NuxtLink to="/contact?from=about" class="text-primary hover:underline font-medium">nice to chat</NuxtLink>.</span>
+              <span>WE ARE TRANSPARENT. No "GET A QUOTE". Check out our <button @click="showCalculator = true" class="text-primary hover:underline font-medium">price calculator</button>. But of course, it'd still be <button @click="showContact = true" class="text-primary hover:underline font-medium">nice to chat</button>.</span>
             </p>
           </div>
         </UCard>
       </div>
-
-      <div class="mt-8">
-        <UButton to="/contact?from=about" size="lg" color="primary" block>
-          Contact Us
-        </UButton>
-      </div>
     </UContainer>
 
     <PriceCalculator v-model="showCalculator" />
+    <ContactModal v-model="showContact" />
   </div>
 </template>
