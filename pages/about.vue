@@ -18,7 +18,11 @@ useSeoMeta({
         <UCard>
           <h2 class="text-2xl font-semibold text-gray-900 dark:text-white mb-3">Who We Are</h2>
           <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
-            We specialize in event decoration services, helping create memorable experiences through thoughtful design and attention to detail.
+            We are people who love to plan as much as attend events.
+
+            We are like baby magpies, finding ourselves drawn to the pretty centerpieces and decorations at events, while struggling to find prolonged entertainment in the midst of all the beauty.
+
+            That's why we want to help YOU throw a beautiful and fun event, that could leave your guests walking away with a smile on their face and a sparkle in their eye - let's just call it... Eventifed.
           </p>
         </UCard>
 
@@ -35,7 +39,7 @@ useSeoMeta({
             </li>
             <li class="flex items-start gap-2">
               <UIcon name="i-heroicons-check-circle" class="text-primary mt-1 shrink-0" />
-              <span>Event gamification solutions (coming soon)</span>
+              <span>Event gamifications (coming soon)</span>
             </li>
           </ul>
         </UCard>
@@ -45,15 +49,15 @@ useSeoMeta({
           <div class="space-y-3 text-gray-600 dark:text-gray-400">
             <p class="flex items-start gap-2">
               <UIcon name="i-heroicons-star" class="text-primary mt-1 shrink-0" />
-              <span>Personalized service tailored to your event</span>
+              <span>There is no event too big or small, too simple or extravagant. From an intimate ROM to mall product launches, we enjoy eventifying it all.</span>
             </p>
             <p class="flex items-start gap-2">
               <UIcon name="i-heroicons-star" class="text-primary mt-1 shrink-0" />
-              <span>Quality materials and craftsmanship</span>
+              <span>We listen - You have ideas? We execute. You have NO ideas? WE STILL EXECUTE. (We mean upon agreement, of course.)</span>
             </p>
             <p class="flex items-start gap-2">
               <UIcon name="i-heroicons-star" class="text-primary mt-1 shrink-0" />
-              <span>Flexible and reliable service</span>
+              <span>Flexible and reliable service.</span>
             </p>
           </div>
         </UCard>

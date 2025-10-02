@@ -4,7 +4,7 @@ import process from 'node:process'
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@nuxt/ui', '@nuxt/eslint'],
+  modules: ['@nuxt/ui', '@nuxt/eslint', '@pinia/nuxt'],
   
   colorMode: {
     preference: 'dark'

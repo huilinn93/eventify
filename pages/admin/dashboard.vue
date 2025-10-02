@@ -1,4 +1,8 @@
 <script setup lang="ts">
+definePageMeta({
+  middleware: 'auth'
+})
+
 useSeoMeta({
   title: 'Admin Dashboard - Eventify',
   robots: 'noindex, nofollow'

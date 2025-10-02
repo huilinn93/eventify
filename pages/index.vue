@@ -1,4 +1,13 @@
 <script setup lang="ts">
+import { useAuthStore } from '~/stores/auth'
+
+const authStore = useAuthStore()
+const showLoginModal = ref(false)
+
+onMounted(() => {
+  authStore.checkAuth()
+})
+
 useSeoMeta({
   title: 'Eventify - Event Management Made Simple',
   description: 'Professional event management services for your special occasions'
@@ -60,12 +69,12 @@ useSeoMeta({
           </UButton>
 
           <UButton
-            to="/admin/dashboard"
             size="xl"
             color="gray"
             variant="outline"
             block
             class="h-24"
+            @click="showLoginModal = true"
           >
             <div class="flex flex-col items-center gap-2">
               <UIcon name="i-heroicons-lock-closed" class="text-2xl" />
@@ -75,5 +84,7 @@ useSeoMeta({
         </div>
       </div>
     </UContainer>
+
+    <LoginModal v-model="showLoginModal" />
   </div>
 </template>
