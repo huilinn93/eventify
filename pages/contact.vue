@@ -63,12 +63,9 @@ const handleSubmit = async () => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-50 dark:bg-gray-950">
+  <div>
     <UContainer class="py-12">
       <div class="mb-12">
-        <UButton to="/" icon="i-heroicons-arrow-left" variant="ghost" color="gray" class="mb-6">
-          Back to Home
-        </UButton>
         <h1 class="text-5xl font-bold text-gray-900 dark:text-white mb-4">Contact Us</h1>
         <p class="text-xl text-gray-600 dark:text-gray-400">
           Have a question or ready for glam-up or game-up? We'd love to hear from you!

@@ -9,12 +9,8 @@ useSeoMeta({
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-50 dark:bg-gray-950">
+  <div>
     <UContainer class="py-12">
-      <UButton to="/" icon="i-heroicons-arrow-left" variant="ghost" color="gray" class="mb-6">
-        Back
-      </UButton>
-      
       <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-4">About Eventify</h1>
       
       <div class="space-y-6">

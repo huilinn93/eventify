@@ -41,12 +41,8 @@ const demoImages = [
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-50 dark:bg-gray-950">
+  <div>
     <UContainer class="py-12">
-      <UButton to="/" icon="i-heroicons-arrow-left" variant="ghost" color="gray" class="mb-6">
-        Back
-      </UButton>
-      
       <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-4">Our Services</h1>
       <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
         Event decoration services
