@@ -86,11 +86,11 @@ const toggleSidebar = () => {
         </nav>
 
         <!-- Admin Link (Bottom) -->
-        <div class="absolute bottom-0 left-0 right-0 p-4 border-t border-gray-200 dark:border-gray-800">
-          <NuxtLink
-            to="/admin/dashboard"
-            class="flex items-center gap-3 px-3 py-2 rounded-lg transition-colors hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-500 dark:text-gray-400"
-            active-class="bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white"
+        <div class="absolute bottom-0 left-0 right-0 p-4 border-t border-neutral-200">
+          <button
+            type="button"
+            class="flex items-center gap-3 px-3 py-2 rounded-lg transition-colors hover:bg-neutral-100 text-primary-700 w-full"
+            @click="$emit('show-admin-login')"
           >
             <UIcon name="i-heroicons-lock-closed" class="text-xl shrink-0" />
             <span
@@ -99,7 +99,7 @@ const toggleSidebar = () => {
             >
               Admin
             </span>
-          </NuxtLink>
+          </button>
         </div>
       </aside>
 

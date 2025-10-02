@@ -29,7 +29,7 @@ useSeoMeta({
           <UButton
             to="/services"
             size="xl"
-            color="primary"
+            color="blue"
             variant="solid"
             block
             class="h-24"
@@ -43,7 +43,7 @@ useSeoMeta({
           <UButton
             to="/about"
             size="xl"
-            color="primary"
+            color="pink"
             variant="solid"
             block
             class="h-24"

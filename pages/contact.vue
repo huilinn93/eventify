@@ -68,7 +68,7 @@ const handleSubmit = async () => {
       <div class="mb-12">
         <h1 class="text-5xl font-bold text-gray-900 dark:text-white mb-4">Contact Us</h1>
         <p class="text-xl text-gray-600 dark:text-gray-400">
-          Have a question or ready for glam-up or game-up? We'd love to hear from you!
+          Ready for a glam-up or game-up? We'd love to hear from you!
         </p>
       </div>
 

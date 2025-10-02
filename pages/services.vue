@@ -2,7 +2,7 @@
 const showCalculator = ref(false)
 
 useSeoMeta({
-  title: 'Our Services - Eventify',
+  title: 'Eventify',
   description: 'Event decoration and gamification services'
 })
 
@@ -44,9 +44,6 @@ const demoImages = [
   <div>
     <UContainer class="py-12">
       <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-4">Our Services</h1>
-      <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
-        Event decoration services
-      </p>
 
       <div class="grid gap-6">
         <UCard v-for="service in services" :key="service.title">
@@ -88,12 +85,11 @@ const demoImages = [
             </div>
             <UButton
               size="lg"
-              color="primary"
-              icon="i-heroicons-calculator"
+              color="orange"
               @click="showCalculator = true"
               class="w-full md:w-auto"
             >
-              Calculate Price
+              Hit Me!
             </UButton>
           </div>
         </UCard>
@@ -120,12 +116,6 @@ const demoImages = [
             />
           </div>
         </UCarousel>
-      </div>
-
-      <div class="mt-8">
-        <UButton to="/contact" size="lg" color="primary" block>
-          Get a Quote
-        </UButton>
       </div>
     </UContainer>
 
