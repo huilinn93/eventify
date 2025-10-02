@@ -56,7 +56,7 @@ useSeoMeta({
             </p>
             <p class="flex items-start gap-2">
               <UIcon name="i-heroicons-star" class="text-primary mt-1 shrink-0" />
-              <span>WE ARE TRANSPARENT. No "GET A QUOTE". Check out our <button @click="showCalculator = true" class="text-primary hover:underline font-medium">price calculator</button>. But of course, it'd still be <button @click="showContact = true" class="text-primary hover:underline font-medium">nice to chat</button>.</span>
+              <span>WE ARE TRANSPARENT. No "GET A QUOTE". Check out our <button @click="showCalculator = true" class="text-primary underline font-medium">price calculator</button>. But of course, it'd still be <button @click="showContact = true" class="text-primary underline font-medium">nice to chat</button>.</span>
             </p>
           </div>
         </UCard>
