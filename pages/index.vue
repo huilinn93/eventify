@@ -29,7 +29,7 @@ useSeoMeta({
           <UButton
             to="/services"
             size="xl"
-            color="blue"
+            color="teal"
             variant="solid"
             block
             class="h-24"
@@ -41,23 +41,9 @@ useSeoMeta({
           </UButton>
 
           <UButton
-            to="/about"
-            size="xl"
-            color="pink"
-            variant="solid"
-            block
-            class="h-24"
-          >
-            <div class="flex flex-col items-center gap-2">
-              <UIcon name="i-heroicons-information-circle" class="text-2xl" />
-              <span class="text-lg font-semibold">About Us</span>
-            </div>
-          </UButton>
-
-          <UButton
             to="/contact"
             size="xl"
-            color="green"
+            color="amber"
             variant="solid"
             block
             class="h-24"
@@ -65,6 +51,20 @@ useSeoMeta({
             <div class="flex flex-col items-center gap-2">
               <UIcon name="i-heroicons-envelope" class="text-2xl" />
               <span class="text-lg font-semibold">Contact Us</span>
+            </div>
+          </UButton>
+          
+          <UButton
+            to="/about"
+            size="xl"
+            color="primary"
+            variant="solid"
+            block
+            class="h-24"
+          >
+            <div class="flex flex-col items-center gap-2">
+              <UIcon name="i-heroicons-information-circle" class="text-2xl" />
+              <span class="text-lg font-semibold">About Us</span>
             </div>
           </UButton>
 

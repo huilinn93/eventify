@@ -220,15 +220,6 @@ const breakdown = computed(() => {
             ${{ totalPrice.toLocaleString() }}
           </p>
         </div>
-        <UButton
-          to="/contact"
-          size="lg"
-          color="primary"
-          icon="i-heroicons-arrow-right"
-          trailing
-        >
-          Get Quote
-        </UButton>
       </div>
     </template>
     </UCard>

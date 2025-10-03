@@ -1,7 +1,7 @@
 export default defineAppConfig({
   ui: {
-    primary: 'primary',
-    gray: 'secondary',
+    primary: 'rose',
+    gray: 'slate',
 
     // Global UI component theme
     card: {

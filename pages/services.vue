@@ -85,7 +85,7 @@ const demoImages = [
             </div>
             <UButton
               size="lg"
-              color="orange"
+              color="primary"
               @click="showCalculator = true"
               class="w-full md:w-auto"
             >
